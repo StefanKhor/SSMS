@@ -96,3 +96,19 @@ The frontend will be available at: http://localhost:5173
 ## Notes
 - Ensure the backend URL in the frontend config matches the running FastAPI server.
 - For production deployments, environment variables, and a persistent database should be implemented.
+
+# Demo
+1. Staff Management
+![Staff Management](./doc/staff_management.gif)
+
+2. Manual Schedule Arrangement
+![Manual Scheduling](./doc/manual_scheduling.gif)
+
+3. Auto Scheduling
+![Auto Scheduling](./doc/autoscheduling.gif)
+
+4. Export Schedule as Excel file
+![Export Feature](./doc/export.gif)
+
+5. Swagger UI API Overview
+![Swagger UI](./doc/swagger.png)
