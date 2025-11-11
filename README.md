@@ -105,7 +105,7 @@ The frontend will be available at: http://localhost:5173
 ![Manual Scheduling](./doc/manual_scheduling.gif)
 
 3. Auto Scheduling
-![Auto Scheduling](./doc/autoscheduling.gif)
+![Auto Scheduling](./doc/auto_scheduling.gif)
 
 4. Export Schedule as Excel file
 ![Export Feature](./doc/export.gif)
