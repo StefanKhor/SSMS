@@ -80,6 +80,7 @@ const submitForm = async () => {
     ElMessage.error(`Operation failed: ${error.message}`);
   } finally {
     loading.value = false;
+    form.value = {...initialForm};
   }
 };
 </script>
