@@ -32,8 +32,8 @@ Follow these steps to set up and run the application locally.
 
 ### 1. Clone the repository
 ```bash
-git clone 
-cd 
+git clone https://github.com/StefanKhor/SSMS.git
+cd SSMS
 ```
 
 ### 2. Backend setup & launch (FastAPI)
