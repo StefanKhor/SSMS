@@ -4,7 +4,7 @@
       <h1>Staff & Shift Management System</h1>
     </el-header>
     <el-main>
-      <el-tabs type="border-card">
+      <el-tabs type="border-card" @tab-change="handleTabChange">
         <el-tab-pane label="Staff Management">
           <StaffList />
         </el-tab-pane>
@@ -32,6 +32,17 @@ const handleScheduleComplete = () => {
     shiftScheduleRef.value.fetchShifts();
     ElMessage.success('Schedule refreshed successfully.');
   }
+};
+
+const handleTabChange = (name) => {
+    if (name === "1" && shiftScheduleRef.value) {
+        shiftScheduleRef.value.fetchStaffList(); 
+        shiftScheduleRef.value.fetchShifts();
+    }
+    
+    else if (name === "0" && staffListRef.value) {
+        staffListRef.value.fetchStaffs();
+    }
 };
 </script>
 
